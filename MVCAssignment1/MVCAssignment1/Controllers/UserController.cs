@@ -10,6 +10,7 @@ namespace MVCAssignment1.Controllers
 
         public ActionResult Index()
         {
+            // yo peep this sweet comment !!
             var users = new UserModel();
             var list = users.GetList();
             return View(list);
